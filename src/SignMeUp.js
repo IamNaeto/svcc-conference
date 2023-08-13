@@ -10,7 +10,7 @@ const SignMeUp = ({signupCallback}) => {
                     <input placeholder="Enter Email" type="email" name="email" value={email}
                     onChange={(e) => {
                         setEmail(e.target.value);
-                    }}/>
+                    }}/>;
                     &nbsp;
                     <button 
                     disabled={!email.includes("@")}
@@ -19,11 +19,11 @@ const SignMeUp = ({signupCallback}) => {
                         setEmail("");
                         alert("Signup confirmed");
                     }}
-                    className="btn" type="submit">Get Update</button>
+                    className="btn" type="submit">Get Update</button>;
                 </div>
             </div>
         </div>
     )
-}
+};
 
 export default SignMeUp;
