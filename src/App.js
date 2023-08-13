@@ -5,7 +5,7 @@ import Speakers from "./Speakers.js";
 const App = ({pageName}) => {
     if (pageName === "Home") return <Home></Home>;
     if (pageName === "Speakers") return <Speakers></Speakers>;
-    return <div>Not Found</div>;
+    return <div>Not Found</div>
 };
  
 export default App;

@@ -115,7 +115,7 @@ const Speakers = ({}) => {
                   />
                 );
               },
-            )};
+            )}
           </div>
         </div>
       </div>
